@@ -8,6 +8,7 @@ var magnezoneSpecialAttack = 130;
 var magnezoneDefense = 115;
 var magnezoneSpecialDefense = 90;
 var magnezoneSpeed = 60;
+
 console.log(magnezoneHP);
 console.log(magnezoneNum);
 console.log(magnezoneType);
