@@ -8,14 +8,13 @@ function setup() {
     fill("blue");
     ellipse(500,100,100,100);
   }{
-  fill("white");
+  fill("red");
     ellipse(750,100,100,100);
   }
 }
 
-function mousePressed() {
-  ellipse(250,100,100,100);
-  return "yellow"
+function mousePressed(){
+  
 }
 
 var color
