@@ -1,0 +1,21 @@
+var magnezoneHP = 70;
+var magnezoneNum = 462;
+var magnezoneType = "Electric and Steel";
+var magnezoneBestMove = "Earthquake";
+var magnezoneLastEvo = true;
+var magnezoneAttack = 70;
+var magnezoneSpecialAttack = 130;
+var magnezoneDefense = 115;
+var magnezoneSpecialDefense = 90;
+var magnezoneSpeed = 60;
+
+console.log(magnezoneHP);
+console.log(magnezoneNum);
+console.log(magnezoneType);
+console.log(magnezoneBestMove);
+console.log(magnezoneLastEvo);
+console.log(magnezoneAttack);
+console.log(magnezoneSpecialAttack);
+console.log(magnezoneDefense);
+console.log(magnezoneSpecialDefense);
+console.log(magnezoneSpeed);
