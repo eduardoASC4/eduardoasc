@@ -1,7 +1,12 @@
-var answerForRect = [rect1 = {value:0
-},rect2 = {value:1
-},rect3 = {value:1
-},rect4 = {value:0}];
+// [[]] means nested array and [ ={}] is object
+// var answerForRect = [
+//     rect1 = {value:0},
+//     rect2 = {value:1
+// },rect3 = {value:1
+// },rect4 = {value:0}
+// ];
+
+
 var colors = ["red","white"];
 var tile1 = "blue";
 var tile2 = "blue";
@@ -11,6 +16,12 @@ var tile4 = "blue";
 function setup(){
     createCanvas(200,100);
     background("black");
+}
+
+function loopRectArr(){
+    for(var i=0;i<answerForRect.length;i++){
+        answerForRect[i].
+    }
 }
 
 function draw(){
