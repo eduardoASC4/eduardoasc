@@ -1,0 +1,9 @@
+.jumbotron{
+    background-image: url(betterheaderpic.jpg);
+    background-size:contain; 
+    height:380px;
+}
+
+.row{
+    transform:scale(.1);
+}

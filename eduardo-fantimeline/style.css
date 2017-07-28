@@ -1,0 +1,34 @@
+body{
+    background-image:url("nintendo.jpg");
+    background-position:center;
+    background-size:contain;
+}
+
+.miyamoto{
+    text-align:center;
+    width: 100%
+}
+
+.header{
+    text-align:center;
+}
+
+.fact1{
+    text-align:center;
+}
+
+.fact2{
+    text-align:center;
+}
+
+.fact3{
+    text-align:center;
+}
+
+.fact4{
+    text-align:center;
+}
+
+.fact5{
+    text-align:center;
+}
