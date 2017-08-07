@@ -5,7 +5,7 @@
 }
 
 .navbar-default{
-    margin: -30px 0px 0px 0px;
+    margin-top: -30px;
     text-align: center;
 }
 
@@ -16,12 +16,30 @@ body{
 }
 
 .search{
-    padding: 100px;
+    padding: 0px 0px 100px 0px;
 }
 
 
 
 
 .map{
-    padding:0px 0px 30px 240px
+    padding:5px 0px 0px 0px;
+}
+
+.username{
+    text-align:center;
+}
+
+#userImage{
+    padding:0px 0px 0px 230px;
+}
+
+.userData{
+    text-align:center;
+}
+
+.signOut{
+    position:relative;
+    left:500px;
+    color:gray;
 }

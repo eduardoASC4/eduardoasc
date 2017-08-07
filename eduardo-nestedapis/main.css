@@ -1,0 +1,10 @@
+.jumbotron{
+    background-image: url("https://unsplash.it/1200/1000");
+    background-size: cover;
+    padding:0px 0px 400px 0px;
+}
+
+.profile{
+    padding:0px 0px 0px 610px;
+    margin-top: -280px;
+}
