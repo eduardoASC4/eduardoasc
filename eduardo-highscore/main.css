@@ -1,0 +1,12 @@
+.jumbotron{
+    height: 100vh;
+    text-align: center;
+    padding: 30vh;
+    background-image: url("rps.png");
+    background-size: cover;
+    color: blue;
+}
+
+.bottom{
+    text-align: center;
+}
