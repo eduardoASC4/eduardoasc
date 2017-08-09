@@ -1,6 +1,7 @@
 .jumbotron{
     height: 300px;
     text-align: center; 
+    color: rgba(0,0,0,.6);
     background-image:url("https://image.freepik.com/free-vector/abstract-background-with-a-3d-pattern_1319-68.jpg");  
 }
 
@@ -15,13 +16,6 @@ body{
     background-attachment:fixed;
 }
 
-.search{
-    padding: 0px 0px 100px 0px;
-}
-
-
-
-
 .map{
     padding:5px 0px 0px 0px;
 }
@@ -30,16 +24,16 @@ body{
     text-align:center;
 }
 
-#userImage{
+ #userImage{
     padding:0px 0px 0px 230px;
-}
+} 
 
 .userData{
     text-align:center;
 }
 
-.signOut{
+/* .signOut{
     position:relative;
     left:500px;
     color:gray;
-}
+} */

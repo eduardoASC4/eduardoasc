@@ -10,6 +10,7 @@
     <!--google stuff  -->
     <meta name="google-signin-client_id" content="688281276833-n4dnt03o1vancuap291a1b5kge4bdah7.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!-- jquery stuff -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -24,7 +25,7 @@
         crossorigin="anonymous"></script>
 
     <!--stuff linked  -->
-     <script src="app.js"></script> 
+    <script src="app.js"></script>
     <link rel="stylesheet" href="main.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -69,30 +70,24 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
+<!-- map stuff -->
     <div class="row search">
-        <div class="col-md-1"></div>
-        <div class="col-md-6">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
             <div class="input-group">
                 <span class="input-group-btn">
                     <button class="btn btn-default" type="button">Go!</button>
                 </span>
                 <input type="text" class="form-control" placeholder="Search by zip code...">
             </div>
-            <!-- /input-group -->
-                <div class="container">
-                    <div class="map">
-                        <img src="http://cdn.newsapi.com.au/image/v1/0a0ceda4bda18e664ffac1a8fa86a7d1" alt="">
-                    </div>
-                </div>
         </div>
 
-        <div class="col-md-5">
+        <div class="col-md-4">
             <!-- user profile stuff -->
-            <div class="username">
-            <header>
-                <h1>Welcome <span class="userName"></span></h1>
-            </header>
+            <!-- <div class="username">
+                <header>
+                    <h1>Welcome <span class="userName"></span></h1>
+                </header>
             </div>
             <div class="userimg">
                 <img src="" alt="" id="userImage">
@@ -104,15 +99,39 @@
             <div class="fav">
                 <img src="pp.jpg" alt="">
             </div>
-        </div>
+        </div> -->
 
 
 
     </div>
     <!-- search bar ends here -->
+            <div class="container">
+                <div class="map">
+                    <img src="http://cdn.newsapi.com.au/image/v1/0a0ceda4bda18e664ffac1a8fa86a7d1" alt="">
+                </div>
+            </div>
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
 
-
-
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
     <!-- end of website  -->
