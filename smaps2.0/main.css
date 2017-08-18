@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+13px');
+
+.jumbotron{
+    height: 223px;
+    text-align: center; 
+    color: rgba(255,255,255,.6);
+    background-image:url("bodyimg.png"); 
+    background-size: cover;
+}
+
+#navbar{
+    margin-top:-30px;
+}
+
+body{
+    background-image:url("titleimg.png");
+    background-size:cover;
+    background-attachment:fixed;
+    position:relative;
+    font-family: 'Slabo 13px', serif;
+}
+
+#maps{
+    padding: 10px 0px 0px 0px;
+}
+
+.modal{
+    font-size: 30px;
+}
